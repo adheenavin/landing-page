@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Digitalbuddha | SEO, GEO &amp; AEO Visibility Platform</title>
+  <meta
+    content="Master the future of search with Digitalbuddha. We specialize in SEO, Generative Engine Optimization (GEO), and AI Engine Optimization (AEO)."
+    name="description" />
+  <!-- Material Symbols -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;family=Sora:wght@100..800&amp;family=JetBrains+Mono:wght@100..800&amp;display=swap"
+    rel="stylesheet" />
+  <!-- Mainframe Fonts -->
+  <link href="https://db.onlinewebfonts.com/c/5ac3fe7c6abd2f62067f266d89671492?family=HelveticaNowDisplay-Medium"
+    rel="stylesheet" />
+  <link href="https://db.onlinewebfonts.com/c/1aa3377e489837a26d019bba501e779d?family=HelveticaNowDisplayW01-Rg"
+    rel="stylesheet" />
+  <!-- Display Serif Font — matches digitalbuddha.in wulkanDisplay style -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode:"class",
+      theme: {
+        extend: {
+         "colors": {
+           "primary":"#0D0D0D",
+           "on-surface":"#0D0D0D",
+           "on-background":"#0D0D0D",
+           "secondary":"#4F4F4F",
+           "on-surface-variant":"#4F4F4F",
+           "background":"#F8F8F5",
+           "stark-white":"#FFFFFF",
+           "surface":"#FFFFFF",
+           "subtle-gray":"#F2F2EE",
+           "outline":"#F2F2EE",
+           "deep-onyx":"#101010",
+           "accent-gold":"#e8375a",
+           "accent-blue":"#e8375a",
+           "accent-green":"#e8375a",
+           "vibrant-pink":"#DCC6A5"
+          },
+         "borderRadius": {
+           "DEFAULT":"0px",
+           "lg":"0px",
+           "xl":"0px",
+           "full":"9999px"
+          },
+         "spacing": {
+           "container-max":"1280px",
+           "unit":"8px",
+           "gutter":"24px",
+           "margin-mobile":"20px",
+           "margin-desktop":"64px"
+          },
+         "fontFamily": {
+           "body-lg": ["Satoshi","sans-serif"],
+           "headline-md": ["Playfair Display","serif"],
+           "label-sm": ["Satoshi","sans-serif"],
+           "body-md": ["Satoshi","sans-serif"],
+           "label-md": ["Satoshi","sans-serif"],
+           "display-lg-mobile": ["Playfair Display","serif"],
+           "headline-lg": ["Playfair Display","serif"],
+           "headline-lg-mobile": ["Playfair Display","serif"],
+           "display-lg": ["Playfair Display","serif"]
+          },
+         "fontSize": {
+           "body-lg": ["20px", {"lineHeight":"32px","fontWeight":"400" }],
+           "headline-md": ["32px", {"lineHeight":"40px","fontWeight":"600" }],
+           "label-sm": ["12px", {"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"500" }],
+           "body-md": ["16px", {"lineHeight":"26px","fontWeight":"400" }],
+           "label-md": ["14px", {"lineHeight":"20px","letterSpacing":"0.05em","fontWeight":"500" }],
+           "display-lg-mobile": ["48px", {"lineHeight":"56px","letterSpacing":"-0.01em","fontWeight":"700" }],
+           "headline-lg": ["48px", {"lineHeight":"56px","letterSpacing":"-0.01em","fontWeight":"600" }],
+           "headline-lg-mobile": ["32px", {"lineHeight":"40px","fontWeight":"600" }],
+           "display-lg": ["80px", {"lineHeight":"90px","letterSpacing":"-0.02em","fontWeight":"700" }]
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      vertical-align: middle;
+    }
+    .text-stroke-vibrant {
+      -webkit-text-stroke: 1px #DCC6A5;
+      color: transparent;
+    }
+    .glow-gold {
+      background: radial-gradient(circle at center, rgba(220, 198, 165, 0.15) 0%, transparent 70%);
+    }
+    .glow-blue {
+      background: radial-gradient(circle at center, rgba(216, 228, 242, 0.1) 0%, transparent 70%);
+    }
+    :root {
+      --font-satoshi: 'Satoshi', sans-serif;
+      --font-heading: 'Playfair Display', serif;
+      --font-body: var(--font-satoshi);
+    }
+    body {
+      font-family: var(--font-satoshi);
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .typewriter-cursor {
+      display: inline-block;
+      width: 2px;
+      height: 1.1em;
+      background: #fff;
+      vertical-align: middle;
+      margin-left: 2px;
+      animation: blink 1s step-end infinite;
+    }
+    /* ── Gradient text — matches digitalbuddha.in hero gradient ── */
+    .text-gradient {
+      background: linear-gradient(135deg, #7C3AED 0%, #BE185D 60%, #e8375a 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    /* ── Glass pill button — hero CTAs (matches digitalbuddha.in style) ── */
+    .btn-glass {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 28px;
+      border-radius: 100px;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.22);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+      transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, transform 0.15s ease;
+    }
+    .btn-glass:hover {
+      background: rgba(255,255,255,0.20);
+      border-color: rgba(255,255,255,0.45);
+      box-shadow: 0 6px 24px rgba(0,0,0,0.28);
+    }
+    /* Darker glass pill for email/outline CTA */
+    .btn-glass-outline {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.30);
+    }
+    .btn-glass-outline:hover {
+      background: rgba(255,255,255,0.12);
+    }
+    /* ── Solid pill button — used in dark sections (matches digitalbuddha.in "Get Started") ── */
+    .btn-pill {
+      display: inline-block;
+      padding: 13px 32px;
+      border-radius: 100px;
+      border: 1px solid rgba(255,255,255,0.30);
+      background: rgba(255,255,255,0.08);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+      transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    }
+    .btn-pill:hover {
+      background: rgba(255,255,255,0.18);
+      border-color: rgba(255,255,255,0.60);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    }
+    /* ── Ghost pill — nav CTA (matches dbseo-btn-ghost) ── */
+    .btn-nav-cta {
+      display: inline-block;
+      background: transparent;
+      color: rgba(255,255,255,0.8);
+      border: 1px solid rgba(255,255,255,0.18);
+      padding: 13px 28px;
+      border-radius: 100px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+    .btn-nav-cta:hover {
+      border-color: rgba(255,255,255,0.5);
+      color: #fff;
+      background: rgba(255,255,255,0.04);
+    }
+    /* Scrolled state: switch to dark ghost so it reads on white navbar */
+    #main-navbar.scrolled .btn-nav-cta {
+      color: rgba(13,13,13,0.75);
+      border-color: rgba(13,13,13,0.18);
+      background: transparent;
+    }
+    #main-navbar.scrolled .btn-nav-cta:hover {
+      border-color: rgba(13,13,13,0.5);
+      color: #0d0d0d;
+      background: rgba(13,13,13,0.04);
+    }
+    /* Logo wordmark turns dark on scroll; icon stays #e63064 */
+    #main-navbar.scrolled #site-logo .ft1 { fill: #0d0d0d; }
+    /* Remove accent-gold border on hover globally */
+    /* Pill container — accent border on hover */
+    #pill-container a:hover { border-color: #e8375a !important; }
+    .hover\:border-accent-gold:hover { border-color: transparent !important; }
+    /* ── Step number badges — matches dbseo-approach-num ── */
+    .approach-num {
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      background: rgba(232,55,90,0.1);
+      border: 1px solid rgba(232,55,90,0.25);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; font-weight: 800;
+      color: rgb(232,55,90);
+      margin-bottom: 20px;
+      position: relative; z-index: 2;
+      font-family: monospace;
+    }
+    /* ── SEO specialism card hover — matches dbseo-svc-card animation ── */
+    .seo-card {
+      transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s !important;
+    }
+    .seo-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 22px 60px rgba(0,0,0,.09), 0 0 0 1px rgba(196,160,80,0.35);
+    }
+    .seo-card:hover h3 {
+      color: #c4a050;
+    }
+    .seo-card h3 {
+      transition: color 0.2s;
+    }
+    .seo-card p {
+      opacity: 0.72;
+      transition: opacity 0.25s;
+    }
+    .seo-card:hover p {
+      opacity: 1;
+    }
+    /* Spotlight gradient — top fade-in on hover */
+    .seo-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 160px;
+      background: linear-gradient(180deg, rgba(196,160,80,0.07) 0%, transparent 100%);
+      opacity: 0;
+      transition: opacity 0.4s;
+      pointer-events: none;
+    }
+    .seo-card:hover::before { opacity: 1; }
+    .btn-arrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid currentColor;
+      padding-bottom: 2px;
+      transition: opacity 0.2s ease;
+    }
+    .btn-arrow:hover { opacity: 0.6; }
+    /* ── CTA section pill buttons (light/outline pill style on dark) ── */
+    .btn-cta-primary {
+      display: inline-block;
+      padding: 16px 40px;
+      border-radius: 100px;
+      background: #fff;
+      color: #0d0d0d;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background 0.25s, color 0.25s, box-shadow 0.25s;
+      box-shadow: 0 4px 20px rgba(255,255,255,0.18);
+    }
+    .btn-cta-primary:hover {
+      background: #e8375a;
+      color: #fff;
+      box-shadow: 0 6px 28px rgba(232,55,90,0.40);
+    }
+    .btn-cta-outline {
+      display: inline-block;
+      padding: 16px 40px;
+      border-radius: 100px;
+      background: transparent;
+      color: #fff;
+      border: 1.5px solid rgba(255,255,255,0.40);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: border-color 0.25s, background 0.25s, box-shadow 0.25s;
+    }
+    .btn-cta-outline:hover {
+      border-color: #fff;
+      background: rgba(255,255,255,0.08);
+      box-shadow: 0 4px 20px rgba(255,255,255,0.12);
+    }
+    /* ── Wave canvas overlay ── */
+    .wave-canvas-wrap {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      overflow: hidden;
+    }
+    .wave-canvas-wrap canvas {
+      width: 100%;
+      height: 100%;
+    }
+    /* ── Card hover glow — matches digitalbuddha.in particle cards ── */
+    .card-glow {
+      position: relative;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    .card-glow::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: radial-gradient(circle at 70% 70%, rgba(157,210,239,0.18), transparent 60%),
+                  radial-gradient(circle at 30% 30%, rgba(175,109,255,0.12), transparent 60%);
+      opacity: 0;
+      transition: opacity 0.35s ease;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .card-glow:hover::before { opacity: 1; }
+    .card-glow:hover { box-shadow: 0 8px 40px rgba(124,58,237,0.12); transform: translateY(-2px); }
+    /* ── Rounded corners for cards (preserve existing design) ── */
+    [class~="border"]:not([class~="rounded-full"]) { border-radius: 12px; }
+    .p-8.bg-deep-onyx { border-radius: 12px; }
+  </style>
+</head>
+
+<body class="bg-background text-on-background font-body-md selection:bg-accent-gold selection:text-deep-onyx">
+  <!-- 1. HERO SECTION -->
+  <header id="main-navbar" class="fixed top-0 w-full z-50 transition-all duration-500">
+    <nav class="flex justify-between items-center px-margin-desktop py-unit max-w-container-max mx-auto h-20">
+      <a href="https://digitalbuddha.in/" aria-label="Digitalbuddha" class="flex items-center">
+        <svg id="site-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 974.41 238.15" height="38"
+          style="width:auto;" aria-hidden="true">
+          <defs>
+            <style>
+              .ft1, .ft2 { stroke-width: 0 }
+              .ft1 { fill: #fff; transition: fill 0.3s ease }
+              .ft2 { fill: #e63064; fill-rule: evenodd }
+            </style>
+          </defs>
+          <path d="M134.72 69.88v49.1c0 26.37-21.4 47.76-47.76 47.76s-47.76-21.4-47.76-47.76v-49.1c-12.8 12.42-20.83 30-20.83 49.1 0 37.83 30.76 68.59 68.59 68.59s68.59-30.76 68.59-68.59c0-19.11-8.02-36.49-20.83-49.1m-18.91 11.08V56.89c-8.79-4.01-18.53-6.3-28.85-6.3s-20.06 2.29-28.85 6.3v24.07c8.02-6.11 17.96-9.74 28.85-9.74s20.83 3.63 28.85 9.74" class="ft2"/>
+          <path d="M116.76 119.17c0 16.05-12.99 29.04-29.04 29.04s-29.04-12.99-29.04-29.04 12.99-29.04 29.04-29.04c16.05-.19 29.04 12.99 29.04 29.04" class="ft2"/>
+          <path d="M945.72 74.58c-5.85 0-10.57-4.72-10.57-10.57s4.72-10.57 10.57-10.57 10.57 4.72 10.57 10.57-4.72 10.57-10.57 10.57m0-19.43c-4.91 0-8.87 3.96-8.87 8.87s3.96 8.87 8.87 8.87 8.87-3.96 8.87-8.87-4.15-8.87-8.87-8.87" class="ft1"/>
+          <path d="M950.63 69.86h-1.89l-2.26-3.21c-.19-.38-.38-.57-.57-.75l-.57-.57c-.19-.19-.38-.19-.57-.38s-.57 0-.75 0h-1.32v4.91h-1.51V58.35h3.96c.57 0 1.13 0 1.7.19s.94.38 1.32.57l.94.94c.19.38.38.94.38 1.32s0 .75-.19 1.13-.38.57-.57.94c-.38.38-.57.57-.94.75s-.75.38-1.13.38c.19 0 .38.19.57.38s.38.19.57.38.38.38.38.57l.57.57 1.89 3.4Zm-7.92-10.38v4.15h2.08c.38 0 .75 0 1.13-.19.38 0 .57-.38.94-.38.19-.19.38-.38.57-.75.19-.38.19-.57.19-.94 0-.57-.19-1.13-.75-1.51s-1.13-.57-2.08-.57zM554.02 90.5c-7.36 0-13.58 2.26-18.3 6.79V52.57h-13.58v103.96h13.02v-4.91c5.09 4.72 11.7 7.17 19.25 7.17 19.06 0 32.45-13.96 32.45-34.15s-13.58-34.15-32.83-34.15Zm.19 56.41c-9.25 0-19.25-6.98-19.25-22.26 0-12.83 7.55-22.26 18.11-22.26 14.34 0 19.43 12.08 19.43 22.26.19 13.58-7.17 22.26-18.3 22.26Zm94.15-54.14v36.98c0 18.49-9.81 29.06-26.98 29.06s-26.98-10.57-26.98-29.06V92.77h13.58v37.92c0 16.04 10 16.04 13.4 16.04s13.4 0 13.4-16.04V92.77zm58.49-40.19v44.34c-4.53-4.34-10.57-6.6-17.74-6.6-19.25 0-33.21 14.34-33.21 34.34 0 23.4 17.17 34.15 33.02 34.15 7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V52.58zm-18.11 94.34c-13.02 0-18.87-11.51-18.87-22.26 0-8.87 5.09-22.26 19.25-22.26 10.57 0 18.3 9.43 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26m90.75-94.34v44.34c-4.53-4.34-10.75-6.6-17.92-6.6-19.25 0-33.21 14.34-33.21 34.34 0 23.4 17.17 34.15 33.02 34.15 7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V52.58H779.5Zm-18.11 94.34c-13.02 0-18.87-11.51-18.87-22.26 0-8.87 5.09-22.26 19.25-22.26 10.57 0 18.3 9.43 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26m96.23-30.38v40h-13.58v-38.87c0-10.94-2.83-15.09-10.38-15.09-9.25 0-15.85 8.87-15.85 21.13v33.02h-13.58V52.58h13.58v44.34c3.58-3.4 9.06-6.6 16.79-6.6 14.34.19 23.02 9.81 23.02 26.23Zm59.24-23.77v4.72c-4.91-4.72-11.13-7.17-18.49-7.17-19.25 0-33.21 14.34-33.21 34.34s13.96 34.15 33.02 34.15c7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V92.78h-13.02Zm-18.68 54.15c-12.45 0-18.87-11.13-18.87-22.26 0-12.83 8.11-22.26 19.25-22.26 12.08 0 18.3 11.13 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26M250.25 52.58v44.34c-4.53-4.34-10.75-6.6-17.74-6.6-19.25 0-33.21 14.34-33.21 34.34 0 23.4 17.17 34.15 33.02 34.15 7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V52.58zm-18.11 94.34c-13.02 0-18.87-11.51-18.87-22.26 0-8.87 5.09-22.26 19.25-22.26 10.57 0 18.3 9.43 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26m58.68-70.94c0 4.91-3.96 8.87-8.87 8.87s-8.87-3.96-8.87-8.87 3.96-8.87 8.87-8.87c4.91-.19 8.87 3.77 8.87 8.87m-15.66 16.79h13.58v63.58h-13.58zm72.64 0v4.53c-4.72-4.53-10.94-6.98-18.3-6.98-19.25 0-33.21 14.34-33.21 34.34 0 22.45 16.6 34.15 33.02 34.15 6.98 0 13.21-2.26 18.11-6.6-.19 14.91-6.04 22.26-18.11 22.26-3.21 0-13.77-.75-16.42-10.57l-.57-2.08h-14.53l.94 3.4c1.89 7.92 8.49 21.13 30.57 21.13 19.43 0 31.51-13.21 31.51-34.72V92.76h-13.02Zm-18.68 54.15c-12.45 0-18.87-11.13-18.87-22.26 0-8.87 5.09-22.26 19.25-22.26 12.08 0 18.3 11.13 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26m43.02-54.15h13.58v63.58h-13.58zm15.66-16.79c0 4.91-3.96 8.87-8.87 8.87s-8.87-3.96-8.87-8.87 3.96-8.87 8.87-8.87 8.87 3.77 8.87 8.87m36.03 16.79v12.07H412.7v51.7h-13.58v-51.7h-9.44V92.77h9.44V70.31h13.58v22.46zm50.57 0v4.72c-4.91-4.72-11.13-7.17-18.49-7.17-19.25 0-33.21 14.34-33.21 34.34s13.96 34.15 33.02 34.15c7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V92.78H474.4Zm-18.49 54.15c-12.45 0-18.87-11.13-18.87-22.26 0-12.83 8.11-22.26 19.25-22.26 12.08 0 18.3 11.13 18.3 22.26-.19 13.4-7.55 22.26-18.68 22.26m42.64-94.34h13.58v103.96h-13.58zM382.32 176.92h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm25.66-2.08v16.42h-2.64L397.23 179v12.26h-2.64v-16.42h2.64l8.11 12.26v-12.26zm27.55 4.72h-3.21c-.94-1.7-2.45-2.45-4.34-2.45-3.21 0-5.66 2.26-5.66 5.85s2.26 5.85 5.66 5.85c3.02 0 4.91-1.7 5.28-4.53h-6.23v-2.08h9.06v2.08c-.57 3.77-3.77 6.98-8.11 6.98s-8.3-3.4-8.3-8.3 3.77-8.3 8.3-8.3c3.4 0 6.42 1.7 7.55 4.91Zm12.08-4.72h2.64v16.42h-2.64zm28.68 0v16.42h-2.64L465.54 179v12.26h-2.64v-16.42h2.64l8.11 12.26v-12.26zm21.51 2.08h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm21.32 0h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm17.73-2.08c3.96 0 5.85 2.26 5.85 4.91 0 1.89-.94 3.96-3.77 4.72l3.96 6.79h-3.21l-3.77-6.6h-2.08v6.6h-2.64v-16.42zm0 2.08h-3.02v5.47h3.02c2.08 0 3.02-1.13 3.02-2.83.19-1.51-.75-2.64-3.02-2.64m18.3-2.08h2.64v16.42h-2.64zm28.49 0v16.42H581L572.89 179v12.26h-2.64v-16.42h2.64L581 187.1v-12.26zm27.55 4.72h-3.21c-.94-1.7-2.45-2.45-4.34-2.45-3.21 0-5.66 2.26-5.66 5.85s2.26 5.85 5.66 5.85c3.02 0 4.91-1.7 5.28-4.53h-6.23v-2.08h9.06v2.08c-.57 3.77-3.77 6.98-8.11 6.98s-8.3-3.4-8.3-8.3 3.77-8.3 8.3-8.3c3.4 0 6.42 1.7 7.55 4.91Zm26.42-4.72h11.51v2.26h-4.34v14.15h-2.64V177.1h-4.53zm33.39 9.25h-7.74v7.17h-2.64v-16.42h2.64v6.98H671v-6.98h2.64v16.42H671zm24.15-7.17h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm27.36-2.08h2.64v16.42h-2.64zm28.49 0v16.42h-2.64L740.25 179v12.26h-2.64v-16.42h2.64l8.11 12.26v-12.26zm20-.19c3.4 0 6.42 1.7 7.55 4.91h-3.21c-.94-1.7-2.45-2.64-4.34-2.64-3.21 0-5.66 2.26-5.66 6.04S767.6 189 771 189c1.89 0 3.58-.75 4.34-2.64h3.21c-1.32 3.21-4.15 4.91-7.55 4.91-4.53 0-8.3-3.4-8.3-8.3 0-4.91 3.77-8.3 8.3-8.3Zm25.29.19c3.96 0 5.85 2.26 5.85 4.91 0 1.89-.94 3.96-3.77 4.72l3.96 6.79h-3.21l-3.77-6.6h-2.08v6.6h-2.64v-16.42zm0 2.08h-3.02v5.47h3.02c2.08 0 3.02-1.13 3.02-2.83 0-1.51-.94-2.64-3.02-2.64m27.17 0h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm26.41 6.22c0 5.09-3.4 8.11-8.68 8.11h-5.47v-16.42H841c5.28 0 8.87 3.21 8.87 8.3Zm-8.68 5.85c3.77 0 5.85-2.26 5.85-5.85 0-3.77-2.08-6.04-5.85-6.04h-2.64v12.08h2.64zm20.19-14.15h2.64v16.42h-2.64zm21.7 16.42h-6.6v-16.42h6.23c3.4 0 5.28 1.89 5.28 4.15 0 1.89-1.13 3.21-2.83 3.77 1.7.38 3.21 2.08 3.21 3.96.19 2.45-1.89 4.53-5.28 4.53Zm-.57-14.34h-3.4v4.72h3.4c1.7 0 2.83-.75 2.83-2.26s-1.13-2.45-2.83-2.45Zm.19 6.98h-3.58v5.09h3.58c1.89 0 2.83-.94 2.83-2.45.19-1.7-.94-2.64-2.83-2.64m20.38-9.06v14.15h5.47v2.08h-8.3v-16.42h2.83zm25.66 2.08h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Z" class="ft1"/>
+        </svg>
+      </a>
+      <a class="hidden md:block btn-nav-cta"
+        href="https://digitalbuddha.in/contact-us">Get in Touch</a>
+    </nav>
+  </header>
+  <!-- Background video (fixed, z-0) -->
+  <video id="mainframe-bg-video" class="fixed inset-0 w-full h-full object-cover"
+    style="z-index:0;object-position:70% center;" muted playsinline preload="auto">
+    <source
+      src="banner.mp4"
+      type="video/mp4" />
+  </video>
+  <!-- Hero section (z-1) -->
+  <section class="h-screen flex flex-col justify-end md:justify-center pb-12 md:pb-0 px-margin-desktop overflow-hidden"
+    style="position:relative;z-index:1;">
+    <!-- Mobile overlay: darkens video on small screens for readability -->
+    <div class="md:hidden absolute inset-0 pointer-events-none" style="background:linear-gradient(to bottom,rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.65) 100%);z-index:1;"></div>
+    <div id="hero-content" class="max-w-xl" style="position:relative;z-index:10;">
+      <!-- Blurred intro label -->
+      <div class="mb-5 sm:mb-6 pointer-events-none select-none"
+        style="font-size:clamp(18px,4vw,26px);line-height:1.3;font-weight:400;color:#e8375a;filter:blur(4px);">
+        Building digital experiences<br />that help your business grow.
+      </div>
+      <!-- Typewriter text -->
+      <p id="typewriter-text" class="text-white mb-5 sm:mb-6"
+        style="font-size:clamp(32px,6vw,60px);line-height:1.15;font-weight:800;min-height:2.5em;white-space:nowrap;"></p>
+      <!-- Action pills -->
+      <div id="pill-container" class="flex flex-wrap gap-y-1"
+        style="opacity:0;transform:translateY(8px);transition:opacity 0.4s ease,transform 0.4s ease;">
+        <a href="https://digitalbuddha.in/careers"
+          class="inline-flex items-center justify-center bg-white text-black border border-black/10 rounded-full text-[13px] sm:text-[15px] px-4 sm:px-5 mx-[0.2em] mb-[0.4em] whitespace-nowrap hover:bg-black hover:text-white transition-colors duration-200"
+          style="padding-top:0.3em;padding-bottom:0.3em;">Come work here</a>
+        <a href="https://digitalbuddha.in/contact-us"
+          class="inline-flex items-center justify-center bg-white text-black border border-black/10 rounded-full text-[13px] sm:text-[15px] px-4 sm:px-5 mx-[0.2em] mb-[0.4em] whitespace-nowrap hover:bg-black hover:text-white transition-colors duration-200"
+          style="padding-top:0.3em;padding-bottom:0.3em;">Send a brief hello</a>
+        <a href="https://digitalbuddha.in/about-us"
+          class="inline-flex items-center justify-center bg-white text-black border border-black/10 rounded-full text-[13px] sm:text-[15px] px-4 sm:px-5 mx-[0.2em] mb-[0.4em] whitespace-nowrap hover:bg-black hover:text-white transition-colors duration-200"
+          style="padding-top:0.3em;padding-bottom:0.3em;">See how we operate</a>
+        <a id="copy-email-btn" href="mailto:info@digitalbuddha.in"
+          class="inline-flex items-center justify-center text-white bg-transparent border border-white rounded-full text-[13px] sm:text-[15px] px-4 sm:px-5 mx-[0.2em] mb-[0.4em] whitespace-nowrap gap-2 sm:gap-3 hover:bg-white hover:text-black transition-colors duration-200"
+          style="padding-top:0.3em;padding-bottom:0.3em;">
+          <span>Reach us:&nbsp;<span class="underline underline-offset-1">info@digitalbuddha.in</span></span>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true">
+            <rect x="1" y="1" width="7" height="7" rx="1" fill="none" stroke="currentColor" stroke-width="1.2" />
+            <rect x="4" y="4" width="7" height="7" rx="1" fill="none" stroke="currentColor" stroke-width="1.2" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+  <div id="scroll-content" style="position:relative;z-index:2;">
+    <!-- STATS BAR -->
+    <section class="py-16 bg-deep-onyx border-b border-white/10">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div>
+            <div class="font-headline-lg font-bold text-accent-gold mb-2" style="font-size:3rem" data-count="150" data-suffix="+">150+</div>
+            <div class="text-xs uppercase tracking-widest text-stark-white/50">Happy Clients</div>
+          </div>
+          <div>
+            <div class="font-headline-lg font-bold text-accent-gold mb-2" style="font-size:3rem" data-count="3" data-suffix="x">3x</div>
+            <div class="text-xs uppercase tracking-widest text-stark-white/50">Average Client Growth</div>
+          </div>
+          <div>
+            <div class="font-headline-lg font-bold text-accent-gold mb-2" style="font-size:3rem" data-count="11" data-suffix="">11</div>
+            <div class="text-xs uppercase tracking-widest text-stark-white/50">SEO Services</div>
+          </div>
+          <div>
+            <div class="font-headline-lg font-bold text-accent-gold mb-2" style="font-size:3rem" data-count="10000" data-suffix="+">10k+</div>
+            <div class="text-xs uppercase tracking-widest text-stark-white/50">Campaigns Delivered</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 2. SEARCH HAS CHANGED -->
+    <section class="py-40 bg-stark-white">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+          <div class="lg:col-span-5">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mb-8">Search Has <span
+                class="text-accent-green">Changed.</span></h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
+              Google and AI tools like ChatGPT now decide what people see. Getting found online is harder than ever.
+            </p>
+            <p class="font-body-md text-body-md text-on-surface-variant opacity-80">
+              We help your business show up on Google and AI search tools. We create the right content so people — and machines — can find and trust you.
+            </p>
+            <a href="https://digitalbuddha.in/about-us" class="btn-arrow mt-8 inline-flex text-on-surface">Explore Our Approach &rarr;</a>
+          </div>
+          <div class="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="p-8 border border-subtle-gray hover:border-accent-blue transition-all group bg-background">
+              <span class="material-symbols-outlined text-accent-gold text-4xl mb-6">psychology</span>
+              <h4 class="font-headline-md text-headline-md mb-4 text-on-surface">People Ask Differently Now</h4>
+              <p class="font-body-md text-on-surface-variant">People now ask full questions online, not just type keywords.</p>
+            </div>
+            <div class="p-8 bg-deep-onyx text-stark-white">
+              <h4 class="font-headline-md text-headline-md mb-4">AI Gives the Answers</h4>
+              <p class="font-body-md text-stark-white/60">Your business needs to be in places where AI tools learn from — so they recommend you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ORGANIC GROWTH SYSTEM — SERP mock + proof section -->
+    <section class="py-24 bg-background overflow-hidden">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <span class="font-label-sm text-accent-gold uppercase tracking-widest">Our Results</span>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-6">Free Traffic That<br><em>Grows Over Time</em></h2>
+            <p class="font-body-md text-on-surface-variant mb-8 leading-relaxed max-w-md">When your website ranks on Google, you get visitors without paying for ads. A page that ranks today keeps bringing traffic for months — even years. That's why SEO is one of the best investments for your business.</p>
+            <div class="flex gap-8 mb-8">
+              <div><div class="text-3xl font-headline-lg font-bold text-accent-gold">240%</div><div class="text-xs uppercase tracking-widest text-on-surface-variant mt-1">More Website Visitors</div></div>
+              <div><div class="text-3xl font-headline-lg font-bold text-accent-gold">12k+</div><div class="text-xs uppercase tracking-widest text-on-surface-variant mt-1">Times Mentioned by AI Tools</div></div>
+            </div>
+            <a href="#specialisms" class="btn-arrow inline-flex text-on-surface">See Our 11 SEO Services &rarr;</a>
+          </div>
+          <div class="flex justify-center lg:justify-end">
+            <div id="serp-mock" class="bg-stark-white rounded-2xl shadow-2xl p-6 border border-subtle-gray w-full max-w-md">
+              <div class="flex items-center gap-3 border-b border-gray-100 pb-4 mb-5">
+                <span class="material-symbols-outlined text-on-surface-variant text-lg">search</span>
+                <span class="font-body-md text-on-surface-variant text-sm">best accounting software for small business</span>
+              </div>
+              <div class="space-y-4">
+                <div class="serp-result flex gap-3">
+                  <div class="flex items-center justify-center w-7 h-7 bg-green-500 text-white text-xs font-bold rounded-full flex-shrink-0 mt-0.5">1</div>
+                  <div class="flex-1">
+                    <div class="text-xs text-on-surface-variant mb-1">yoursite.com › accounting › best-software</div>
+                    <div class="text-sm font-semibold text-on-surface mb-1">Best Accounting Software for Small Business — 2025</div>
+                    <div class="text-xs text-on-surface-variant mb-2">Compare 12 tools built for SMBs, with pricing and feature breakdowns...</div>
+                    <span class="inline-block bg-green-50 text-green-700 text-xs font-semibold px-2 py-0.5 rounded">↑ 18</span>
+                  </div>
+                </div>
+                <div class="serp-result flex gap-3">
+                  <div class="flex items-center justify-center w-7 h-7 bg-green-500 text-white text-xs font-bold rounded-full flex-shrink-0 mt-0.5">2</div>
+                  <div class="flex-1">
+                    <div class="text-xs text-on-surface-variant mb-1">yoursite.com › guides › accounting-software</div>
+                    <div class="text-sm font-semibold text-on-surface mb-1">Accounting Software Guide: What SMBs Actually Need</div>
+                    <div class="text-xs text-on-surface-variant mb-2">Most accounting tools charge for features growing businesses never use...</div>
+                    <span class="inline-block bg-green-50 text-green-700 text-xs font-semibold px-2 py-0.5 rounded">↑ 31</span>
+                  </div>
+                </div>
+                <div class="serp-result flex gap-3 opacity-60">
+                  <div class="flex items-center justify-center w-7 h-7 bg-gray-300 text-gray-600 text-xs font-bold rounded-full flex-shrink-0 mt-0.5">4</div>
+                  <div class="flex-1">
+                    <div class="text-xs text-on-surface-variant mb-1">yoursite.com › tools › invoicing</div>
+                    <div class="text-sm font-semibold text-on-surface mb-1">Online Invoicing Software for Freelancers &amp; SMBs</div>
+                    <div class="text-xs text-on-surface-variant mb-2">Create, send, and track invoices in under 2 minutes...</div>
+                    <span class="inline-block bg-blue-50 text-blue-600 text-xs font-semibold px-2 py-0.5 rounded">new</span>
+                  </div>
+                </div>
+                <div class="serp-result flex gap-3 opacity-60">
+                  <div class="flex items-center justify-center w-7 h-7 bg-gray-300 text-gray-600 text-xs font-bold rounded-full flex-shrink-0 mt-0.5">6</div>
+                  <div class="flex-1">
+                    <div class="text-xs text-on-surface-variant mb-1">yoursite.com › compare › quickbooks-vs-freshbooks</div>
+                    <div class="text-sm font-semibold text-on-surface mb-1">QuickBooks vs FreshBooks: 2025 Comparison</div>
+                    <div class="text-xs text-on-surface-variant mb-2">Side-by-side breakdown of pricing, features, and integrations...</div>
+                    <span class="inline-block bg-green-50 text-green-700 text-xs font-semibold px-2 py-0.5 rounded">↑ 9</span>
+                  </div>
+                </div>
+              </div>
+              <div class="border-t border-gray-100 mt-5 pt-3 text-xs text-on-surface-variant text-center">Organic traffic, compounding</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 3. WHAT WE DO (PILLARS) -->
+    <section class="py-40 bg-background">
+      <div class="px-margin-desktop max-w-container-max mx-auto text-center mb-24">
+        <span class="font-label-sm text-accent-gold uppercase tracking-widest">Our Expertise</span>
+        <h2 class="font-headline-lg text-headline-lg text-on-surface mt-4">Three Ways We Get You <span class="text-accent-green">Found Online</span></h2>
+      </div>
+      <div class="px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-3 gap-gutter">
+        <!-- SEO -->
+        <div
+          class="bg-stark-white hover:border-accent-gold border border-transparent transition-all duration-500 overflow-hidden flex flex-col">
+          <div class="overflow-hidden" style="height:200px;">
+            <img
+              src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?w=700&h=300&auto=format&fit=crop&q=80"
+              alt="Search engine optimization" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 rounded-2xl" />
+          </div>
+          <div class="p-12 flex-1">
+            <div class="text-accent-gold mb-8 font-label-md">01</div>
+            <h3 class="font-headline-md text-headline-md text-on-surface mb-6">SEO</h3>
+            <p class="font-body-md text-on-surface-variant mb-8">We fix your website and create the right content so you rank higher on Google.</p>
+            <ul class="space-y-3 font-label-sm text-on-surface">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent-gold"></span> TECHNICAL AUDITS</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent-gold"></span> CONTENT STRATEGY</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent-gold"></span> BACKLINK AUTHORITY
+              </li>
+            </ul>
+              <a href="https://digitalbuddha.in/seo-services-in-india" class="btn-arrow mt-8 inline-flex text-on-surface">Explore SEO &rarr;</a>
+          </div>
+        </div>
+        <!-- GEO -->
+        <div
+          class="bg-deep-onyx text-stark-white shadow-2xl relative overflow-hidden border border-subtle-gray/10 flex flex-col">
+          <div class="overflow-hidden" style="height:200px;">
+            <img
+              src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=700&h=300&auto=format&fit=crop&q=80"
+              alt="Generative engine optimization" class="w-full h-full object-cover grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500 rounded-2xl" />
+          </div>
+          <div class="p-12 flex-1">
+            <div class="text-accent-gold mb-8 font-label-md">02</div>
+            <h3 class="font-headline-md text-headline-md mb-6">GEO</h3>
+            <p class="font-body-md text-stark-white/60 mb-8">We make sure AI tools like ChatGPT and Google AI mention your business when people ask questions.</p>
+            <ul class="space-y-3 font-label-sm">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent-gold"></span> ENTITY ESTABLISHMENT
+              </li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent-gold"></span> CITATION MINING</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent-gold"></span> KNOWLEDGE GRAPH</li>
+            </ul>
+              <a href="https://digitalbuddha.in/generative-engine-optimization-services" class="btn-arrow mt-8 inline-flex" style="color:#fff;">Explore GEO &rarr;</a>
+          </div>
+        </div>
+        <!-- AEO -->
+        <div
+          class="bg-stark-white hover:border-accent-gold border border-transparent transition-all duration-500 overflow-hidden flex flex-col">
+          <div class="overflow-hidden" style="height:200px;">
+            <img
+              src="AI Engine Optimization.jpg"
+              alt="AI engine optimization" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 rounded-2xl" />
+          </div>
+          <div class="p-12 flex-1">
+            <div class="text-accent-gold mb-8 font-label-md">03</div>
+            <h3 class="font-headline-md text-headline-md text-on-surface mb-6">AEO</h3>
+            <p class="font-body-md text-on-surface-variant mb-8">We optimise your content so AI chatbots and voice assistants recommend your brand.</p>
+            <ul class="space-y-3 font-label-sm text-on-surface">
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent-gold"></span> PROMPT RELEVANCE</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent-gold"></span> STRUCTURED DATA</li>
+              <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent-gold"></span> BRAND VOICE AI</li>
+            </ul>
+              <a href="https://digitalbuddha.in/ai-marketing" class="btn-arrow mt-8 inline-flex text-on-surface">Explore AEO &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 4. MODERN SEARCH JOURNEY -->
+    <section class="py-40 bg-stark-white border-y border-subtle-gray">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <h2 class="font-headline-lg text-headline-lg text-on-surface mb-20 text-center">How People <span class="text-accent-green">Find You</span> Online Today</h2>
+        <div class="relative grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div class="absolute top-1/2 left-0 w-full h-px bg-subtle-gray hidden md:block"></div>
+          <div
+            class="relative z-10 bg-stark-white p-6 border border-transparent hover:border-accent-blue transition-colors">
+            <div class="approach-num">01</div>
+            <h5 class="font-headline-md text-xl mb-4 text-on-surface">Someone Asks a Question</h5>
+            <p class="font-body-md text-on-surface-variant">A person types a question into Google, ChatGPT, or a voice assistant.</p>
+          </div>
+          <div
+            class="relative z-10 bg-stark-white p-6 border border-transparent hover:border-accent-gold transition-colors">
+            <div class="approach-num">02</div>
+            <h5 class="font-headline-md text-xl mb-4 text-on-surface">AI Looks for Trusted Sources</h5>
+            <p class="font-body-md text-on-surface-variant">The AI searches for reliable, well-known brands and websites to answer the question.</p>
+          </div>
+          <div
+            class="relative z-10 bg-stark-white p-6 border border-transparent hover:border-accent-green transition-colors">
+            <div class="approach-num">03</div>
+            <h5 class="font-headline-md text-xl mb-4 text-on-surface">Your Brand Gets Recommended</h5>
+            <p class="font-body-md text-on-surface-variant">The AI recommends your business as the answer and links to your website.</p>
+          </div>
+          <div
+            class="relative z-10 bg-stark-white p-6 border border-transparent hover:border-accent-blue transition-colors">
+            <div class="approach-num">04</div>
+            <h5 class="font-headline-md text-xl mb-4 text-on-surface">Customer Visits Your Site</h5>
+            <p class="font-body-md text-on-surface-variant">The user clicks through to your site — already trusting your brand before they arrive.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 5. WHY TRADITIONAL SEO ISN'T ENOUGH -->
+    <section class="py-40 bg-deep-onyx text-stark-white overflow-hidden relative">
+      <div class="absolute top-0 right-0 w-1/2 h-full glow-blue opacity-30"></div>
+      <div class="px-margin-desktop max-w-container-max mx-auto relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+          <div>
+            <h2 class="font-headline-lg text-headline-lg mb-8 leading-tight">Just Using Keywords<br /><span
+                class="text-accent-green">Isn't Enough Anymore.</span></h2>
+            <p class="font-body-lg text-body-lg text-stark-white/60 mb-10">
+              Many people now get answers directly from Google or AI without clicking any link. You need to be the answer they see — not just a result they scroll past.
+            </p>
+            <div class="space-y-6">
+              <div class="flex gap-4 items-start">
+                <span class="material-symbols-outlined text-accent-gold">warning</span>
+                <div>
+                  <h6 class="font-bold text-lg mb-2 text-stark-white">You're Missing Out on Customers</h6>
+                  <p class="text-stark-white/60">Old-style SEO ignores AI search tools, which means you could be losing more than half of your potential customers.</p>
+                </div>
+              </div>
+              <div class="flex gap-4 items-start">
+                <span class="material-symbols-outlined text-accent-gold">priority_high</span>
+                <div>
+                  <h6 class="font-bold text-lg mb-2 text-stark-white">Too Much Content, Not Enough Quality</h6>
+                  <p class="text-stark-white/60">Publishing lots of content is no longer enough. Google rewards quality, trust, and expertise — not quantity.</p>
+                </div>
+              </div>
+            </div>
+            <a href="https://digitalbuddha.in/contact-us" class="btn-pill mt-10 inline-block">Close the Visibility Gap &rarr;</a>
+          </div>
+          <div class="relative w-full overflow-hidden rounded-2xl" style="min-height:420px;">
+            <img alt="A futuristic digital data visualization"
+              class="w-full h-full object-cover object-center grayscale brightness-125 hover:grayscale-0 transition-all duration-500 rounded-2xl absolute inset-0"
+              src="keyword.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 6. OUR FRAMEWORK -->
+    <section class="py-40 bg-stark-white">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-24">
+          <div class="max-w-2xl">
+            <span class="font-label-sm text-accent-gold uppercase tracking-widest">The Methodology</span>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mt-4">From <span class="text-accent-green"> Plan </span> to Results</h2>
+          </div>
+          <div class="mt-8 md:mt-0 font-body-md text-on-surface-variant max-w-sm">
+            A clear step-by-step plan to make your brand visible on Google and AI tools.
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="p-10 bg-background hover:bg-accent-gold hover:text-deep-onyx transition-all duration-300 group border border-subtle-gray">
+            <h4 class="font-headline-md text-2xl mb-4 text-on-surface group-hover:text-deep-onyx">01. Brand Research
+            </h4>
+            <p class="font-body-md text-on-surface-variant group-hover:text-deep-onyx/80">We research how your brand appears online and make sure all information is accurate and consistent.</p>
+          </div>
+          <div
+            class="p-10 bg-background hover:bg-accent-blue hover:text-deep-onyx transition-all duration-300 group border border-subtle-gray">
+            <h4 class="font-headline-md text-2xl mb-4 text-on-surface group-hover:text-deep-onyx">02. Website Structure</h4>
+            <p class="font-body-md text-on-surface-variant group-hover:text-deep-onyx/80">We fix your website's structure so Google and AI tools can read and understand it easily.</p>
+          </div>
+          <div
+            class="p-10 bg-background hover:bg-accent-green hover:text-deep-onyx transition-all duration-300 group border border-subtle-gray">
+            <h4 class="font-headline-md text-2xl mb-4 text-on-surface group-hover:text-deep-onyx">03. Content Creation
+            </h4>
+            <p class="font-body-md text-on-surface-variant group-hover:text-deep-onyx/80">We create useful, well-written content that people love and search engines trust.</p>
+          </div>
+          <div
+            class="p-10 bg-background hover:bg-accent-blue hover:text-deep-onyx transition-all duration-300 group border border-subtle-gray">
+            <h4 class="font-headline-md text-2xl mb-4 text-on-surface group-hover:text-deep-onyx">04. Technical Tagging
+            </h4>
+            <p class="font-body-md text-on-surface-variant group-hover:text-deep-onyx/80">We add special code to your website that helps Google understand exactly what your business does.</p>
+          </div>
+          <div
+            class="p-10 bg-background hover:bg-accent-gold hover:text-deep-onyx transition-all duration-300 group border border-subtle-gray">
+            <h4 class="font-headline-md text-2xl mb-4 text-on-surface group-hover:text-deep-onyx">05. AI Monitoring</h4>
+            <p class="font-body-md text-on-surface-variant group-hover:text-deep-onyx/80">We regularly check if AI tools like ChatGPT and Google AI are mentioning your brand.</p>
+          </div>
+          <div
+            class="p-10 bg-background hover:bg-accent-green hover:text-deep-onyx transition-all duration-300 group border border-subtle-gray">
+            <h4 class="font-headline-md text-2xl mb-4 text-on-surface group-hover:text-deep-onyx">06. Ongoing Improvement
+            </h4>
+            <p class="font-body-md text-on-surface-variant group-hover:text-deep-onyx/80">We track what's working and keep improving based on real results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 7. SERVICES GRID -->
+    <section class="py-40 bg-background">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <h2 class="font-headline-lg text-headline-lg text-on-surface mb-20">Our <span class="text-accent-green">Services</span></h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+          <div class="border-t pt-8 hover:border-accent-gold transition-colors">
+            <div class="overflow-hidden -mt-8 mb-6" style="height:176px;">
+              <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=260&auto=format&fit=crop&q=80"
+                alt="Web development"
+                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 rounded-2xl" />
+            </div>
+            <h5 class="font-label-md text-accent-gold mb-2">DEVELOPMENT</h5>
+            <p class="font-headline-md text-xl mb-4 text-on-surface">React &amp; JS Web Apps</p>
+            <p class="font-body-md text-on-surface-variant">Fast, modern websites built to load quickly and rank well on Google.</p>
+            <a href="https://digitalbuddha.in/web-development-company-in-india" class="btn-arrow mt-6 inline-flex text-on-surface">Explore Service &rarr;</a>
+          </div>
+          <div class="border-t pt-8 hover:border-accent-blue transition-colors">
+            <div class="overflow-hidden -mt-8 mb-6" style="height:176px;">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=260&auto=format&fit=crop&q=80"
+                alt="Performance marketing analytics"
+                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 rounded-2xl" />
+            </div>
+            <h5 class="font-label-md text-accent-gold mb-2">MARKETING</h5>
+            <p class="font-headline-md text-xl mb-4 text-on-surface">Performance PPC</p>
+            <p class="font-body-md text-on-surface-variant">Paid ads that bring in more customers while keeping your costs low.</p>
+            <a href="https://digitalbuddha.in/performance-marketing-services-in-india" class="btn-arrow mt-6 inline-flex text-on-surface">Explore Service &rarr;</a>
+          </div>
+          <div class="border-t pt-8 hover:border-accent-green transition-colors">
+            <div class="overflow-hidden -mt-8 mb-6" style="height:176px;">
+              <img
+                src="AI Content Strategy.jpg"
+                alt="AI content strategy"
+                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 rounded-2xl" />
+            </div>
+            <h5 class="font-label-md text-accent-gold mb-2">AI</h5>
+            <p class="font-headline-md text-xl mb-4 text-on-surface">AI Content Strategy</p>
+            <p class="font-body-md text-on-surface-variant">Smart content created by our team, powered by AI, written for real people.</p>
+            <a href="https://digitalbuddha.in/ai-marketing" class="btn-arrow mt-6 inline-flex text-on-surface">Explore Service &rarr;</a>
+          </div>
+          <div class="border-t pt-8 hover:border-accent-gold transition-colors">
+            <div class="overflow-hidden -mt-8 mb-6" style="height:176px;">
+              <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=260&auto=format&fit=crop&q=80"
+                alt="E-commerce and merchant center"
+                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 rounded-2xl" />
+            </div>
+            <h5 class="font-label-md text-accent-gold mb-2">E-COMMERCE</h5>
+            <p class="font-headline-md text-xl mb-4 text-on-surface">Merchant Center Setup</p>
+            <p class="font-body-md text-on-surface-variant">Getting your products listed and seen on Google Shopping.</p>
+            <a href="https://digitalbuddha.in/ecommerce-marketing-services-in-india" class="btn-arrow mt-6 inline-flex text-on-surface">Explore Service &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEO SPECIALISMS — 11 interactive filterable cards -->
+    <section class="py-32 bg-stark-white border-t border-subtle-gray" id="specialisms">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="text-center mb-16">
+          <span class="font-label-sm text-accent-gold uppercase tracking-widest">SEO Specialisms</span>
+          <h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-6">11 SEO Services,<br><em>All Under One Roof</em></h2>
+          <p class="font-body-md text-on-surface-variant max-w-2xl mx-auto">Pick one service or let us handle everything. Use the filters below to see what each one covers.</p>
+          <div class="flex flex-wrap justify-center gap-2 mt-10">
+            <button class="seo-filter-btn px-5 py-2 rounded-full text-sm font-medium border border-deep-onyx bg-deep-onyx text-stark-white transition-all" data-filter="all">All</button>
+            <button class="seo-filter-btn px-5 py-2 rounded-full text-sm font-medium border border-subtle-gray text-on-surface-variant hover:border-accent-gold transition-all" data-filter="technical">Technical</button>
+            <button class="seo-filter-btn px-5 py-2 rounded-full text-sm font-medium border border-subtle-gray text-on-surface-variant hover:border-accent-gold transition-all" data-filter="authority">Authority</button>
+            <button class="seo-filter-btn px-5 py-2 rounded-full text-sm font-medium border border-subtle-gray text-on-surface-variant hover:border-accent-gold transition-all" data-filter="content">Content</button>
+            <button class="seo-filter-btn px-5 py-2 rounded-full text-sm font-medium border border-subtle-gray text-on-surface-variant hover:border-accent-gold transition-all" data-filter="scale">Scale</button>
+            <button class="seo-filter-btn px-5 py-2 rounded-full text-sm font-medium border border-subtle-gray text-on-surface-variant hover:border-accent-gold transition-all" data-filter="advanced">Advanced</button>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="technical">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">01 · Foundation</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">Technical SEO</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We check and fix your website's technical health — page speed, broken links, site structure — so Google can find and rank your pages properly.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="authority">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">02 · Local</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">Local SEO</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We help your business show up when people nearby search for what you offer — on Google Maps and in local search results.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="scale">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">03 · Enterprise</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">Enterprise SEO</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">For large businesses with thousands of pages — we manage the complexity and keep your entire website ranking well.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="technical">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">04 · E-commerce</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">E-commerce SEO</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We make your product pages rank higher on Google so more shoppers find and buy from you.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="technical">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">05 · Audit</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">SEO Audit</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">A full health check of your website. We find what's holding you back and give you a clear list of what to fix first for the biggest improvement.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="content">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">06 · Research</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">Keyword Research</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We find the exact words your customers type into Google and plan your content around them.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="content">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">07 · Content</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">SEO Content Strategy</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We plan what content your website needs to become a trusted, go-to source in your industry.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="authority">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">08 · Authority</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">Link Building</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We get other reputable websites to link to yours — which tells Google your site is trustworthy and boosts your rankings.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="scale">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">09 · Scale</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">Programmatic SEO</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We create hundreds of targeted pages at once — for different locations or products — to capture more searches without extra manual work.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="advanced">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">10 · Semantic</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">Semantic SEO</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We organise your content so Google sees your website as an expert on your topic, helping you rank for many related searches.</p>
+          </div>
+          <div class="seo-card group border border-subtle-gray bg-background rounded-2xl p-8 hover:border-accent-gold hover:shadow-xl transition-all duration-300 relative overflow-hidden" data-category="advanced">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+            <div class="flex items-center justify-between mb-6"><span class="font-label-sm text-xs tracking-widest uppercase text-accent-gold font-bold">11 · Knowledge Graph</span><span class="material-symbols-outlined text-accent-gold text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span></div>
+            <h3 class="font-headline-md text-2xl text-on-surface mb-3">Entity-Based SEO</h3>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We help Google and AI tools recognise your brand as a real, trusted business — so they recommend you in their answers.</p>
+          </div>
+          <div class="bg-deep-onyx text-stark-white rounded-2xl p-8 flex flex-col justify-between">
+            <div>
+              <h3 class="font-headline-md text-2xl mb-4">Ready to rank higher on Google?</h3>
+              <p class="font-body-md text-stark-white/60 text-sm mb-8 leading-relaxed">We start by understanding your website before suggesting anything. No guesswork — just a clear action plan.</p>
+            </div>
+            <a href="https://digitalbuddha.in/contact-us" class="btn-cta-primary self-start">Start with an Audit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROCESS — 4-phase accordion -->
+    <section class="py-32 bg-deep-onyx text-stark-white" id="process">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+          <div class="lg:col-span-5">
+            <span class="font-label-sm text-accent-gold uppercase tracking-widest">How We Work</span>
+            <h2 class="font-headline-lg text-headline-lg mt-4 mb-6">From Checkup to<br><em>Top Rankings</em></h2>
+            <p class="font-body-md text-stark-white/60 leading-relaxed mb-12">Four clear steps, no shortcuts. We always understand your website first before making any changes.</p>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="border border-white/10 rounded-2xl p-6">
+                <div class="text-3xl font-headline-lg font-bold text-accent-gold mb-2">3–6</div>
+                <div class="text-xs uppercase tracking-widest text-stark-white/50">Months to See Results</div>
+              </div>
+              <div class="border border-white/10 rounded-2xl p-6">
+                <div class="text-3xl font-headline-lg font-bold text-accent-gold mb-2">100%</div>
+                <div class="text-xs uppercase tracking-widest text-stark-white/50">Quality Links Only</div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-7">
+            <div class="process-item border-b border-white/10 py-6 cursor-pointer group" data-index="0">
+              <div class="flex items-center">
+                <span class="text-accent-gold font-bold text-2xl font-headline-lg mr-6 w-8 flex-shrink-0">01</span>
+                <h3 class="font-headline-md text-xl flex-1">Audit</h3>
+                <span class="material-symbols-outlined process-chevron ml-auto transition-transform text-accent-gold rotate-180">expand_more</span>
+              </div>
+              <div class="process-body mt-4 pl-14">
+                <p class="font-body-md text-stark-white/70 leading-relaxed mb-4">We do a full check of your website — speed, broken pages, content, and who's linking to you. This tells us exactly what's working and what needs fixing.</p>
+                <ul class="space-y-2">
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Crawl data &amp; log file analysis</li>
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Core Web Vitals assessment</li>
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Backlink profile &amp; content gap review</li>
+                </ul>
+              </div>
+            </div>
+            <div class="process-item border-b border-white/10 py-6 cursor-pointer group" data-index="1">
+              <div class="flex items-center">
+                <span class="text-accent-gold font-bold text-2xl font-headline-lg mr-6 w-8 flex-shrink-0">02</span>
+                <h3 class="font-headline-md text-xl flex-1">Strategy</h3>
+                <span class="material-symbols-outlined process-chevron ml-auto transition-transform text-stark-white/40">expand_more</span>
+              </div>
+              <div class="process-body hidden mt-4 pl-14">
+                <p class="font-body-md text-stark-white/70 leading-relaxed mb-4">Based on the checkup, we create a clear action plan. We tackle technical issues first, then work on content and building links from other trusted websites.</p>
+                <ul class="space-y-2">
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Prioritised technical roadmap</li>
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Topic cluster architecture</li>
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Competitor gap &amp; link target analysis</li>
+                </ul>
+              </div>
+            </div>
+            <div class="process-item border-b border-white/10 py-6 cursor-pointer group" data-index="2">
+              <div class="flex items-center">
+                <span class="text-accent-gold font-bold text-2xl font-headline-lg mr-6 w-8 flex-shrink-0">03</span>
+                <h3 class="font-headline-md text-xl flex-1">Execution</h3>
+                <span class="material-symbols-outlined process-chevron ml-auto transition-transform text-stark-white/40">expand_more</span>
+              </div>
+              <div class="process-body hidden mt-4 pl-14">
+                <p class="font-body-md text-stark-white/70 leading-relaxed mb-4">We put the plan into action — fixing your website, publishing the right content, and getting quality links. You'll see progress tracked from week one.</p>
+                <ul class="space-y-2">
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>On-page &amp; technical implementation</li>
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Content publishing schedule</li>
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Link acquisition campaigns</li>
+                </ul>
+              </div>
+            </div>
+            <div class="process-item border-b border-white/10 py-6 cursor-pointer group" data-index="3">
+              <div class="flex items-center">
+                <span class="text-accent-gold font-bold text-2xl font-headline-lg mr-6 w-8 flex-shrink-0">04</span>
+                <h3 class="font-headline-md text-xl flex-1">Measurement</h3>
+                <span class="material-symbols-outlined process-chevron ml-auto transition-transform text-stark-white/40">expand_more</span>
+              </div>
+              <div class="process-body hidden mt-4 pl-14">
+                <p class="font-body-md text-stark-white/70 leading-relaxed mb-4">We track visits, leads, and sales — not just rankings. Every month you get a clear report showing exactly how SEO is helping your business grow.</p>
+                <ul class="space-y-2">
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Organic revenue attribution</li>
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>SERP share tracking by topic cluster</li>
+                  <li class="flex items-center gap-2 text-sm text-stark-white/60"><span class="w-1 h-1 bg-accent-gold rounded-full flex-shrink-0"></span>Monthly business impact report</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 9. WHY DIGITAL BUDDHA -->
+    <section class="py-40 bg-stark-white">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter">
+          <div>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mb-10">Smart Strategy.<br />Real<span class="text-accent-green"> Results.</span>
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-10">
+              We're not your average marketing agency. We combine deep expertise with smart tools to make your business impossible to ignore online.
+            </p>
+            <div class="space-y-8">
+              <div class="flex gap-6 pb-8 border-b border-subtle-gray">
+                <span class="font-headline-md text-accent-gold">01</span>
+                <div>
+                  <h4 class="font-bold text-xl mb-2 text-on-surface">Work With Us From Anywhere</h4>
+                  <p class="font-body-md text-on-surface-variant">Based in India, we work with businesses across the USA, Middle East, and worldwide — fully online, no hassle.</p>
+                </div>
+              </div>
+              <div class="flex gap-6 pb-8 border-b border-subtle-gray">
+                <span class="font-headline-md text-accent-gold">02</span>
+                <div>
+                  <h4 class="font-bold text-xl mb-2 text-on-surface">People First, AI-Powered</h4>
+                  <p class="font-body-md text-on-surface-variant">We use AI tools to work smarter and faster, but every strategy is planned and reviewed by our expert team.</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-10 overflow-hidden" style="height:280px;">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&h=400&auto=format&fit=crop&q=80"
+                alt="Digitalbuddha agency team" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 rounded-2xl" />
+            </div>
+          </div>
+          <div class="bg-deep-onyx p-16 text-stark-white relative border border-subtle-gray/10">
+            <h3 class="font-headline-md mb-12">The Digitalbuddha Advantage</h3>
+            <div class="space-y-8">
+              <div class="flex items-center justify-between group">
+                <span class="text-lg opacity-60 group-hover:opacity-100 transition-opacity">Other Agencies</span>
+                <span class="w-12 h-px bg-white/10"></span>
+                <span class="text-lg opacity-40">Outdated</span>
+              </div>
+              <div class="flex items-center justify-between group">
+                <span class="text-lg font-bold text-accent-gold">Digitalbuddha Ecosystem</span>
+                <span class="w-12 h-px bg-accent-gold/50"></span>
+                <span class="text-lg font-bold text-accent-gold">Elite</span>
+              </div>
+            </div>
+            <a href="https://digitalbuddha.in/contact-us" class="btn-pill mt-12 inline-block">Work With Us &rarr;</a>
+            <div class="mt-20">
+              <div
+                class="text-6xl font-display-lg text-stroke-vibrant opacity-10 absolute -bottom-4 right-4 select-none">
+                BUDDHA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 10. CASE STUDIES -->
+    <section class="py-40 bg-background">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <h2 class="font-headline-lg text-headline-lg text-on-surface mb-20">Real Results We've Delivered</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+          <div
+            class="bg-stark-white overflow-hidden flex flex-col border border-subtle-gray hover:border-accent-gold transition-colors">
+            <div class="h-80 overflow-hidden bg-deep-onyx">
+              <img alt="Case study screenshot"
+                class="w-full h-full object-cover grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500 rounded-2xl"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3NgfTmMPDcOjRouW1gNMOfTAruJHAtn5-VYZ9aobmP8LykKNtSiW3zovRHDPZc-LWECUsGLrc6Feh2QI7W82XUYW7vbBvmpGn643usyHUR2xqwL2q4I34zvYbMJoDYt713PkFa2kmBiSpy0Ls9g6WqpA1wCNw6YsfhcWE4xxRd_xdpON4K0zVRkHBYmAGq1flg_5Vf_1QJb4uGg18HIMyYDt_b1NocgW9FQggWP2e3xynb0xfpGLp-mNvXEtk031SzFS-0v6tZbs" />
+            </div>
+            <div class="p-12">
+              <h4 class="font-headline-md text-2xl mb-4 text-on-surface">Software Company Growth</h4>
+              <p class="font-body-md text-on-surface-variant mb-8">We helped a software company get 240% more visitors from Google by combining SEO with AI search strategies.</p>
+              <div class="flex gap-10">
+                <div>
+                  <div class="text-accent-gold font-bold text-3xl">240%</div>
+                  <div class="font-label-sm text-xs uppercase text-on-surface-variant">More Website Traffic</div>
+                </div>
+                <div>
+                  <div class="text-accent-gold font-bold text-3xl">12k</div>
+                  <div class="font-label-sm text-xs uppercase text-on-surface-variant">AI Tool Mentions</div>
+                </div>
+              </div>
+              <a href="https://digitalbuddha.in/case-studies" class="btn-arrow mt-8 inline-flex text-on-surface">Read Full Case Study &rarr;</a>
+            </div>
+          </div>
+          <div
+            class="bg-stark-white overflow-hidden flex flex-col border border-subtle-gray hover:border-accent-blue transition-colors">
+            <div class="h-80 overflow-hidden bg-deep-onyx">
+              <img alt="Healthcare transformation"
+                class="w-full h-full object-cover grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500 rounded-2xl"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYJe5KKL1riD_L67NL6Np_9Gc_-lRzOQNyrW3SZxddcnok8V8yHt0zoEtVEZQ6xqt0p20CQb07pSChpHYjZjjMHzDyKGbMPYjdm3gx9uuYnOIkOJdl3la9RN4D8PZUNW9p5jXgp9w8mLymTnX3SyjFxK7-ELodSKx_-joNTQ9aDjElfp0H8p1wCsmMHGU_6LbA9K10nJl4Uvnlj1gET1Vq1bpjW1C1YuhS5ldAPTQyqF4QghsUu309z90wc2t-R-bK268RJ0Khc4A" />
+            </div>
+            <div class="p-12">
+              <h4 class="font-headline-md text-2xl mb-4 text-on-surface">Global Healthcare Brand</h4>
+              <p class="font-body-md text-on-surface-variant mb-8">We helped a healthcare brand get found across multiple countries and cut their ad costs by 85%.</p>
+              <div class="flex gap-10">
+                <div>
+                  <div class="text-accent-gold font-bold text-3xl">85%</div>
+                  <div class="font-label-sm text-xs uppercase text-on-surface-variant">Lower Ad Costs</div>
+                </div>
+                <div>
+                  <div class="text-accent-gold font-bold text-3xl">4.2M</div>
+                  <div class="font-label-sm text-xs uppercase text-on-surface-variant">People Reached</div>
+                </div>
+              </div>
+              <a href="https://digitalbuddha.in/case-studies" class="btn-arrow mt-8 inline-flex text-on-surface">Read Full Case Study &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TOOLS & SIGNALS -->
+    <section class="py-32 bg-stark-white border-t border-subtle-gray">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="mb-16">
+          <span class="font-label-sm text-accent-gold uppercase tracking-widest">Tools We Use</span>
+          <h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-4">What we measure <em>and why it matters</em></h2>
+          <p class="font-body-md text-on-surface-variant max-w-2xl">We only track things that actually help your business grow — no meaningless numbers.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-background border border-subtle-gray rounded-2xl p-8 hover:border-accent-gold hover:shadow-lg transition-all group">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="material-symbols-outlined text-accent-gold text-2xl">search</span>
+              <span class="font-label-sm text-xs uppercase tracking-widest text-on-surface-variant">Coverage &amp; Performance</span>
+            </div>
+            <h4 class="font-headline-md text-xl text-on-surface mb-3">Google Search Console</h4>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">Google's own tool that shows us how your website appears in search results, which pages are indexed, and how quickly they load.</p>
+          </div>
+          <div class="bg-background border border-subtle-gray rounded-2xl p-8 hover:border-accent-gold hover:shadow-lg transition-all group">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="material-symbols-outlined text-accent-gold text-2xl">bar_chart</span>
+              <span class="font-label-sm text-xs uppercase tracking-widest text-on-surface-variant">Traffic &amp; Revenue</span>
+            </div>
+            <h4 class="font-headline-md text-xl text-on-surface mb-3">Google Analytics 4</h4>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We track how many people visit your site from Google, what they do, and whether they turn into paying customers.</p>
+          </div>
+          <div class="bg-background border border-subtle-gray rounded-2xl p-8 hover:border-accent-gold hover:shadow-lg transition-all group">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="material-symbols-outlined text-accent-gold text-2xl">hub</span>
+              <span class="font-label-sm text-xs uppercase tracking-widest text-on-surface-variant">Competitive Intelligence</span>
+            </div>
+            <h4 class="font-headline-md text-xl text-on-surface mb-3">Ahrefs &amp; Semrush</h4>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We use these to find the best keywords, see what your competitors rank for, and discover new content opportunities.</p>
+          </div>
+          <div class="bg-background border border-subtle-gray rounded-2xl p-8 hover:border-accent-gold hover:shadow-lg transition-all group">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="material-symbols-outlined text-accent-gold text-2xl">bug_report</span>
+              <span class="font-label-sm text-xs uppercase tracking-widest text-on-surface-variant">Technical Crawl</span>
+            </div>
+            <h4 class="font-headline-md text-xl text-on-surface mb-3">Screaming Frog</h4>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">A tool that scans your entire website and finds technical problems — like broken links or slow pages — that hurt your Google rankings.</p>
+          </div>
+          <div class="bg-background border border-subtle-gray rounded-2xl p-8 hover:border-accent-gold hover:shadow-lg transition-all group">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="material-symbols-outlined text-accent-gold text-2xl">data_object</span>
+              <span class="font-label-sm text-xs uppercase tracking-widest text-on-surface-variant">Structured Data</span>
+            </div>
+            <h4 class="font-headline-md text-xl text-on-surface mb-3">Schema.org &amp; JSON-LD</h4>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We add special labels to your website's code so Google and AI tools instantly understand what your business offers.</p>
+          </div>
+          <div class="bg-background border border-subtle-gray rounded-2xl p-8 hover:border-accent-gold hover:shadow-lg transition-all group">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="material-symbols-outlined text-accent-gold text-2xl">speed</span>
+              <span class="font-label-sm text-xs uppercase tracking-widest text-on-surface-variant">Page Speed</span>
+            </div>
+            <h4 class="font-headline-md text-xl text-on-surface mb-3">PageSpeed Insights</h4>
+            <p class="font-body-md text-on-surface-variant text-sm leading-relaxed">We measure how fast your website loads and fix anything that slows it down — because speed is a ranking factor on Google.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- INDUSTRIES -->
+    <section class="py-24 bg-background border-t border-subtle-gray">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="mb-12">
+          <span class="font-label-sm text-accent-gold uppercase tracking-widest">Industries</span>
+          <h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-4">We Work With Businesses In</h2>
+          <p class="font-body-md text-on-surface-variant max-w-2xl">We've helped businesses across many different industries get more customers through search.</p>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>SaaS &amp; Software</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Fintech &amp; Financial Services</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Healthcare &amp; MedTech</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Logistics &amp; Supply Chain</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Education &amp; EdTech</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Retail &amp; E-commerce</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Hospitality &amp; Travel</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Real Estate &amp; PropTech</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Manufacturing &amp; Operations</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Professional Services</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Media &amp; Publishing</span>
+          <span class="inline-flex items-center gap-2 px-5 py-3 bg-stark-white border border-subtle-gray rounded-full text-sm text-on-surface hover:border-accent-gold hover:bg-accent-gold/5 transition-all cursor-default"><span class="w-1.5 h-1.5 bg-accent-gold rounded-full flex-shrink-0"></span>Non-profit &amp; Government</span>
+        </div>
+      </div>
+    </section>
+    <!-- 14. FAQ — expanded with SEO-specific questions -->
+    <section class="py-32 bg-background">
+      <div class="px-margin-desktop max-w-container-max mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <div class="lg:col-span-4">
+            <span class="font-label-sm text-accent-gold uppercase tracking-widest">FAQ</span>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-6">Frequently asked questions</h2>
+            <p class="font-body-md text-on-surface-variant leading-relaxed">Simple answers to common questions about SEO and how we can help your business grow.</p>
+            <a href="https://digitalbuddha.in/contact-us" class="btn-arrow mt-8 inline-flex text-on-surface">Talk to the Team &rarr;</a>
+          </div>
+          <div class="lg:col-span-8 space-y-3">
+            <details class="bg-stark-white border border-subtle-gray rounded-2xl group open:border-accent-gold open:shadow-md transition-all">
+              <summary class="list-none flex justify-between items-center p-6 font-bold text-lg cursor-pointer text-on-surface">
+                What SEO services does Digitalbuddha offer?
+                <span class="material-symbols-outlined group-open:rotate-45 transition-transform duration-300 text-accent-gold flex-shrink-0 ml-4">add</span>
+              </summary>
+              <div class="px-6 pb-6 font-body-md text-on-surface-variant leading-relaxed">
+                Digitalbuddha covers 11 specialist SEO categories: Technical SEO, Local SEO, Enterprise SEO, E-commerce SEO, SEO Audit, Keyword Research, SEO Content Strategy, Link Building, Programmatic SEO, Semantic SEO, and Entity-Based SEO. Each can be engaged independently or as part of a full organic growth programme.
+              </div>
+            </details>
+            <details class="bg-stark-white border border-subtle-gray rounded-2xl group open:border-accent-gold open:shadow-md transition-all">
+              <summary class="list-none flex justify-between items-center p-6 font-bold text-lg cursor-pointer text-on-surface">
+                What is entity-based SEO and how is it different from keyword SEO?
+                <span class="material-symbols-outlined group-open:rotate-45 transition-transform duration-300 text-accent-gold flex-shrink-0 ml-4">add</span>
+              </summary>
+              <div class="px-6 pb-6 font-body-md text-on-surface-variant leading-relaxed">
+                Keyword SEO is about ranking for specific search terms. Entity SEO is about making Google and AI recognise your brand as a trusted expert — so they recommend you even when someone doesn't search your exact name.
+              </div>
+            </details>
+            <details class="bg-stark-white border border-subtle-gray rounded-2xl group open:border-accent-gold open:shadow-md transition-all">
+              <summary class="list-none flex justify-between items-center p-6 font-bold text-lg cursor-pointer text-on-surface">
+                How is programmatic SEO different from content SEO?
+                <span class="material-symbols-outlined group-open:rotate-45 transition-transform duration-300 text-accent-gold flex-shrink-0 ml-4">add</span>
+              </summary>
+              <div class="px-6 pb-6 font-body-md text-on-surface-variant leading-relaxed">
+                Regular content SEO means writing pages one at a time. Programmatic SEO uses templates to create hundreds of pages at once — like a page for every city you serve. It's the same quality, just at a much bigger scale.
+              </div>
+            </details>
+            <details class="bg-stark-white border border-subtle-gray rounded-2xl group open:border-accent-gold open:shadow-md transition-all">
+              <summary class="list-none flex justify-between items-center p-6 font-bold text-lg cursor-pointer text-on-surface">
+                How long does SEO take to show results?
+                <span class="material-symbols-outlined group-open:rotate-45 transition-transform duration-300 text-accent-gold flex-shrink-0 ml-4">add</span>
+              </summary>
+              <div class="px-6 pb-6 font-body-md text-on-surface-variant leading-relaxed">
+                Technical fixes show up in Google within 2–4 weeks. You'll usually start seeing ranking improvements in 3–6 months. After that, your content keeps working for you — bringing visitors month after month without paying for ads.
+              </div>
+            </details>
+            <details class="bg-stark-white border border-subtle-gray rounded-2xl group open:border-accent-gold open:shadow-md transition-all">
+              <summary class="list-none flex justify-between items-center p-6 font-bold text-lg cursor-pointer text-on-surface">
+                What does a Digitalbuddha SEO audit include?
+                <span class="material-symbols-outlined group-open:rotate-45 transition-transform duration-300 text-accent-gold flex-shrink-0 ml-4">add</span>
+              </summary>
+              <div class="px-6 pb-6 font-body-md text-on-surface-variant leading-relaxed">
+                We check your entire website — page speed, how Google finds your pages, your content, your links, and what competitors are doing better. You'll get a clear priority list of what to fix first for the biggest results.
+              </div>
+            </details>
+            <details class="bg-stark-white border border-subtle-gray rounded-2xl group open:border-accent-gold open:shadow-md transition-all">
+              <summary class="list-none flex justify-between items-center p-6 font-bold text-lg cursor-pointer text-on-surface">
+                Does Digitalbuddha do SEO for e-commerce businesses?
+                <span class="material-symbols-outlined group-open:rotate-45 transition-transform duration-300 text-accent-gold flex-shrink-0 ml-4">add</span>
+              </summary>
+              <div class="px-6 pb-6 font-body-md text-on-surface-variant leading-relaxed">
+                Yes. Online stores have unique challenges like duplicate product pages and keeping seasonal content fresh. We've worked with fashion, electronics, and retail brands, including helping them show up on Google Shopping.
+              </div>
+            </details>
+            <details class="bg-stark-white border border-subtle-gray rounded-2xl group open:border-accent-gold open:shadow-md transition-all">
+              <summary class="list-none flex justify-between items-center p-6 font-bold text-lg cursor-pointer text-on-surface">
+                Is Digitalbuddha suitable for startups and small businesses?
+                <span class="material-symbols-outlined group-open:rotate-45 transition-transform duration-300 text-accent-gold flex-shrink-0 ml-4">add</span>
+              </summary>
+              <div class="px-6 pb-6 font-body-md text-on-surface-variant leading-relaxed">
+                Yes, absolutely. We tailor our services to fit your budget and stage of growth. Whether you're just starting out or scaling fast, we'll build an SEO foundation that grows with your business.
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 15. FINAL CTA -->
+    <section class="py-40 text-center overflow-hidden relative text-stark-white" id="contact" style="background-color: #0c0c0e;">
+      <div class="px-margin-desktop max-w-container-max mx-auto relative z-10">
+        <h2 class="font-display-lg text-6xl md:text-8xl mb-12 leading-none uppercase font-bold tracking-tighter">Ready to Grow
+          Online?</h2>
+        <p class="font-body-lg text-body-lg mb-16 max-w-2xl mx-auto opacity-80">
+          Let's make sure your business shows up when your customers are searching — on Google, ChatGPT, and beyond.
+        </p>
+        <div class="flex flex-col md:flex-row justify-center gap-6">
+          <a class="btn-cta-primary"
+            href="mailto:info@digitalbuddha.in">Get Started Today</a>
+          <a class="btn-cta-outline"
+            href="tel:+918594001010">Talk to an Expert</a>
+        </div>
+      </div>
+    </section>
+    <!-- 16. PREMIUM FOOTER -->
+    <footer class="bg-deep-onyx text-stark-white py-20">
+      <div class="px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 gap-gutter">
+        <div class="md:col-span-4 mb-12 md:mb-0">
+          <a href="https://digitalbuddha.in/" aria-label="Digitalbuddha" class="flex items-center mb-8">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 974.41 238.15" height="38" style="width:auto;"
+              aria-hidden="true">
+              <defs>
+                <style>
+                  .ft1,
+                  .ft2 {
+                    stroke-width: 0
+                  }
+
+                  .ft1 {
+                    fill: #fff
+                  }
+
+                  .ft2 {
+                    fill: #e63064;
+                    fill-rule: evenodd
+                  }
+                </style>
+              </defs>
+              <path
+                d="M134.72 69.88v49.1c0 26.37-21.4 47.76-47.76 47.76s-47.76-21.4-47.76-47.76v-49.1c-12.8 12.42-20.83 30-20.83 49.1 0 37.83 30.76 68.59 68.59 68.59s68.59-30.76 68.59-68.59c0-19.11-8.02-36.49-20.83-49.1m-18.91 11.08V56.89c-8.79-4.01-18.53-6.3-28.85-6.3s-20.06 2.29-28.85 6.3v24.07c8.02-6.11 17.96-9.74 28.85-9.74s20.83 3.63 28.85 9.74"
+                class="ft2" />
+              <path
+                d="M116.76 119.17c0 16.05-12.99 29.04-29.04 29.04s-29.04-12.99-29.04-29.04 12.99-29.04 29.04-29.04c16.05-.19 29.04 12.99 29.04 29.04"
+                class="ft2" />
+              <path
+                d="M945.72 74.58c-5.85 0-10.57-4.72-10.57-10.57s4.72-10.57 10.57-10.57 10.57 4.72 10.57 10.57-4.72 10.57-10.57 10.57m0-19.43c-4.91 0-8.87 3.96-8.87 8.87s3.96 8.87 8.87 8.87 8.87-3.96 8.87-8.87-4.15-8.87-8.87-8.87"
+                class="ft1" />
+              <path
+                d="M950.63 69.86h-1.89l-2.26-3.21c-.19-.38-.38-.57-.57-.75l-.57-.57c-.19-.19-.38-.19-.57-.38s-.57 0-.75 0h-1.32v4.91h-1.51V58.35h3.96c.57 0 1.13 0 1.7.19s.94.38 1.32.57l.94.94c.19.38.38.94.38 1.32s0 .75-.19 1.13-.38.57-.57.94c-.38.38-.57.57-.94.75s-.75.38-1.13.38c.19 0 .38.19.57.38s.38.19.57.38.38.38.38.57l.57.57 1.89 3.4Zm-7.92-10.38v4.15h2.08c.38 0 .75 0 1.13-.19.38 0 .57-.38.94-.38.19-.19.38-.38.57-.75.19-.38.19-.57.19-.94 0-.57-.19-1.13-.75-1.51s-1.13-.57-2.08-.57zM554.02 90.5c-7.36 0-13.58 2.26-18.3 6.79V52.57h-13.58v103.96h13.02v-4.91c5.09 4.72 11.7 7.17 19.25 7.17 19.06 0 32.45-13.96 32.45-34.15s-13.58-34.15-32.83-34.15Zm.19 56.41c-9.25 0-19.25-6.98-19.25-22.26 0-12.83 7.55-22.26 18.11-22.26 14.34 0 19.43 12.08 19.43 22.26.19 13.58-7.17 22.26-18.3 22.26Zm94.15-54.14v36.98c0 18.49-9.81 29.06-26.98 29.06s-26.98-10.57-26.98-29.06V92.77h13.58v37.92c0 16.04 10 16.04 13.4 16.04s13.4 0 13.4-16.04V92.77zm58.49-40.19v44.34c-4.53-4.34-10.57-6.6-17.74-6.6-19.25 0-33.21 14.34-33.21 34.34 0 23.4 17.17 34.15 33.02 34.15 7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V52.58zm-18.11 94.34c-13.02 0-18.87-11.51-18.87-22.26 0-8.87 5.09-22.26 19.25-22.26 10.57 0 18.3 9.43 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26m90.75-94.34v44.34c-4.53-4.34-10.75-6.6-17.92-6.6-19.25 0-33.21 14.34-33.21 34.34 0 23.4 17.17 34.15 33.02 34.15 7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V52.58H779.5Zm-18.11 94.34c-13.02 0-18.87-11.51-18.87-22.26 0-8.87 5.09-22.26 19.25-22.26 10.57 0 18.3 9.43 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26m96.23-30.38v40h-13.58v-38.87c0-10.94-2.83-15.09-10.38-15.09-9.25 0-15.85 8.87-15.85 21.13v33.02h-13.58V52.58h13.58v44.34c3.58-3.4 9.06-6.6 16.79-6.6 14.34.19 23.02 9.81 23.02 26.23Zm59.24-23.77v4.72c-4.91-4.72-11.13-7.17-18.49-7.17-19.25 0-33.21 14.34-33.21 34.34s13.96 34.15 33.02 34.15c7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V92.78h-13.02Zm-18.68 54.15c-12.45 0-18.87-11.13-18.87-22.26 0-12.83 8.11-22.26 19.25-22.26 12.08 0 18.3 11.13 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26M250.25 52.58v44.34c-4.53-4.34-10.75-6.6-17.74-6.6-19.25 0-33.21 14.34-33.21 34.34 0 23.4 17.17 34.15 33.02 34.15 7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V52.58zm-18.11 94.34c-13.02 0-18.87-11.51-18.87-22.26 0-8.87 5.09-22.26 19.25-22.26 10.57 0 18.3 9.43 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26m58.68-70.94c0 4.91-3.96 8.87-8.87 8.87s-8.87-3.96-8.87-8.87 3.96-8.87 8.87-8.87c4.91-.19 8.87 3.77 8.87 8.87m-15.66 16.79h13.58v63.58h-13.58zm72.64 0v4.53c-4.72-4.53-10.94-6.98-18.3-6.98-19.25 0-33.21 14.34-33.21 34.34 0 22.45 16.6 34.15 33.02 34.15 6.98 0 13.21-2.26 18.11-6.6-.19 14.91-6.04 22.26-18.11 22.26-3.21 0-13.77-.75-16.42-10.57l-.57-2.08h-14.53l.94 3.4c1.89 7.92 8.49 21.13 30.57 21.13 19.43 0 31.51-13.21 31.51-34.72V92.76h-13.02Zm-18.68 54.15c-12.45 0-18.87-11.13-18.87-22.26 0-8.87 5.09-22.26 19.25-22.26 12.08 0 18.3 11.13 18.3 22.26 0 13.4-7.55 22.26-18.68 22.26m43.02-54.15h13.58v63.58h-13.58zm15.66-16.79c0 4.91-3.96 8.87-8.87 8.87s-8.87-3.96-8.87-8.87 3.96-8.87 8.87-8.87 8.87 3.77 8.87 8.87m36.03 16.79v12.07H412.7v51.7h-13.58v-51.7h-9.44V92.77h9.44V70.31h13.58v22.46zm50.57 0v4.72c-4.91-4.72-11.13-7.17-18.49-7.17-19.25 0-33.21 14.34-33.21 34.34s13.96 34.15 33.02 34.15c7.17 0 13.77-2.64 18.68-7.17v4.72h13.02V92.78H474.4Zm-18.49 54.15c-12.45 0-18.87-11.13-18.87-22.26 0-12.83 8.11-22.26 19.25-22.26 12.08 0 18.3 11.13 18.3 22.26-.19 13.4-7.55 22.26-18.68 22.26m42.64-94.34h13.58v103.96h-13.58zM382.32 176.92h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm25.66-2.08v16.42h-2.64L397.23 179v12.26h-2.64v-16.42h2.64l8.11 12.26v-12.26zm27.55 4.72h-3.21c-.94-1.7-2.45-2.45-4.34-2.45-3.21 0-5.66 2.26-5.66 5.85s2.26 5.85 5.66 5.85c3.02 0 4.91-1.7 5.28-4.53h-6.23v-2.08h9.06v2.08c-.57 3.77-3.77 6.98-8.11 6.98s-8.3-3.4-8.3-8.3 3.77-8.3 8.3-8.3c3.4 0 6.42 1.7 7.55 4.91Zm12.08-4.72h2.64v16.42h-2.64zm28.68 0v16.42h-2.64L465.54 179v12.26h-2.64v-16.42h2.64l8.11 12.26v-12.26zm21.51 2.08h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm21.32 0h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm17.73-2.08c3.96 0 5.85 2.26 5.85 4.91 0 1.89-.94 3.96-3.77 4.72l3.96 6.79h-3.21l-3.77-6.6h-2.08v6.6h-2.64v-16.42zm0 2.08h-3.02v5.47h3.02c2.08 0 3.02-1.13 3.02-2.83.19-1.51-.75-2.64-3.02-2.64m18.3-2.08h2.64v16.42h-2.64zm28.49 0v16.42H581L572.89 179v12.26h-2.64v-16.42h2.64L581 187.1v-12.26zm27.55 4.72h-3.21c-.94-1.7-2.45-2.45-4.34-2.45-3.21 0-5.66 2.26-5.66 5.85s2.26 5.85 5.66 5.85c3.02 0 4.91-1.7 5.28-4.53h-6.23v-2.08h9.06v2.08c-.57 3.77-3.77 6.98-8.11 6.98s-8.3-3.4-8.3-8.3 3.77-8.3 8.3-8.3c3.4 0 6.42 1.7 7.55 4.91Zm26.42-4.72h11.51v2.26h-4.34v14.15h-2.64V177.1h-4.53zm33.39 9.25h-7.74v7.17h-2.64v-16.42h2.64v6.98H671v-6.98h2.64v16.42H671zm24.15-7.17h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm27.36-2.08h2.64v16.42h-2.64zm28.49 0v16.42h-2.64L740.25 179v12.26h-2.64v-16.42h2.64l8.11 12.26v-12.26zm20-.19c3.4 0 6.42 1.7 7.55 4.91h-3.21c-.94-1.7-2.45-2.64-4.34-2.64-3.21 0-5.66 2.26-5.66 6.04S767.6 189 771 189c1.89 0 3.58-.75 4.34-2.64h3.21c-1.32 3.21-4.15 4.91-7.55 4.91-4.53 0-8.3-3.4-8.3-8.3 0-4.91 3.77-8.3 8.3-8.3Zm25.29.19c3.96 0 5.85 2.26 5.85 4.91 0 1.89-.94 3.96-3.77 4.72l3.96 6.79h-3.21l-3.77-6.6h-2.08v6.6h-2.64v-16.42zm0 2.08h-3.02v5.47h3.02c2.08 0 3.02-1.13 3.02-2.83 0-1.51-.94-2.64-3.02-2.64m27.17 0h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Zm26.41 6.22c0 5.09-3.4 8.11-8.68 8.11h-5.47v-16.42H841c5.28 0 8.87 3.21 8.87 8.3Zm-8.68 5.85c3.77 0 5.85-2.26 5.85-5.85 0-3.77-2.08-6.04-5.85-6.04h-2.64v12.08h2.64zm20.19-14.15h2.64v16.42h-2.64zm21.7 16.42h-6.6v-16.42h6.23c3.4 0 5.28 1.89 5.28 4.15 0 1.89-1.13 3.21-2.83 3.77 1.7.38 3.21 2.08 3.21 3.96.19 2.45-1.89 4.53-5.28 4.53Zm-.57-14.34h-3.4v4.72h3.4c1.7 0 2.83-.75 2.83-2.26s-1.13-2.45-2.83-2.45Zm.19 6.98h-3.58v5.09h3.58c1.89 0 2.83-.94 2.83-2.45.19-1.7-.94-2.64-2.83-2.64m20.38-9.06v14.15h5.47v2.08h-8.3v-16.42h2.83zm25.66 2.08h-6.42v4.72h5.66v2.26h-5.66v5.09h6.42v2.26h-9.06v-16.42h9.06v2.08Z"
+                class="ft1" />
+            </svg>
+          </a>
+          <p class="font-body-md text-stark-white/60 mb-8 max-w-sm">
+            A global digital agency redefining search visibility through design, technology, and AI integration.
+          </p>
+          <div class="flex gap-4">
+            <a class="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-accent-gold hover:text-deep-onyx transition-colors"
+              href="https://www.facebook.com/digitalbuddha.in" target="_blank" rel="noopener"><span class="material-symbols-outlined text-sm">public</span></a>
+            <a class="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-accent-blue hover:text-deep-onyx transition-colors"
+              href="https://www.instagram.com/digitalbuddha_/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-sm">share</span></a>
+            <a class="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-accent-green hover:text-deep-onyx transition-colors"
+              href="https://www.linkedin.com/company/digitalbuddha/mycompany/verification/" target="_blank" rel="noopener"><span class="material-symbols-outlined text-sm">link</span></a>
+          </div>
+        </div>
+        <div class="md:col-span-2">
+          <h6 class="font-label-md text-accent-gold mb-8 uppercase">Company</h6>
+          <ul class="space-y-4 font-body-md text-stark-white/60">
+            <li><a class="hover:text-accent-gold transition-colors" href="https://digitalbuddha.in/about-us">About Us</a></li>
+            <li><a class="hover:text-accent-gold transition-colors" href="https://digitalbuddha.in/careers">Careers</a></li>
+          </ul>
+        </div>
+        <div class="md:col-span-3">
+          <h6 class="font-label-md text-accent-gold mb-8 uppercase">Services</h6>
+          <ul class="space-y-4 font-body-md text-stark-white/60">
+            <li><a class="hover:text-accent-gold transition-colors" href="https://digitalbuddha.in/web-development-company-in-india">Web Development</a></li>
+            <li><a class="hover:text-accent-gold transition-colors" href="https://digitalbuddha.in/seo-services-in-india">Search Optimization</a></li>
+          </ul>
+        </div>
+        <div class="md:col-span-3">
+          <h6 class="font-label-md text-accent-gold mb-8 uppercase">Contact</h6>
+          <div class="space-y-6 font-body-md text-stark-white/60">
+            <a class="text-accent-gold block" href="mailto:info@digitalbuddha.in">info@digitalbuddha.in</a>
+            <p class="text-sm">Kannur &amp; Calicut, India</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="px-margin-desktop max-w-container-max mx-auto mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between text-xs text-stark-white/30 uppercase tracking-widest">
+        <p>© 2024 Digitalbuddha. All rights reserved.</p>
+        <div class="flex gap-8 mt-4 md:mt-0">
+          <a class="hover:text-accent-gold" href="https://digitalbuddha.in/privacy-policy">Privacy Policy</a>
+          <a class="hover:text-accent-gold" href="https://digitalbuddha.in/terms-and-conditions">Terms</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    document.querySelectorAll('details').forEach((el) => {
+      el.addEventListener('click', (e) => {
+        if (el.open) return;
+        document.querySelectorAll('details').forEach((otherEl) => {
+          if (otherEl !== el) otherEl.removeAttribute('open');
+        });
+      });
+    });
+
+    const buttons = document.querySelectorAll('button, a[class*="bg-"]');
+    buttons.forEach(btn => {
+      btn.addEventListener('mousedown', () => { btn.style.transform = 'scale(0.98)'; });
+      btn.addEventListener('mouseup', () => { btn.style.transform = 'scale(1)'; });
+    });
+  </script>
+  <script>
+    (function () {
+      // ── Video mouse-scrub ──────────────────────────────────────────────────────
+      var video = document.getElementById('mainframe-bg-video');
+      var prevX = null;
+      var targetTime = 0;
+      var isSeeking = false;
+      var SENSITIVITY = 0.8;
+
+      function seekTo(t) {
+        isSeeking = true;
+        video.currentTime = t;
+      }
+
+      video.addEventListener('seeked', function () {
+        isSeeking = false;
+        if (video.duration && Math.abs(video.currentTime - targetTime) > 0.01) {
+          seekTo(Math.min(Math.max(targetTime, 0), video.duration));
+        }
+      });
+
+      window.addEventListener('mousemove', function (e) {
+        if (prevX === null) { prevX = e.clientX; return; }
+        var delta = e.clientX - prevX;
+        prevX = e.clientX;
+        if (!video.duration) return;
+        targetTime = Math.min(
+          Math.max((video.currentTime || 0) + (delta / window.innerWidth) * SENSITIVITY * video.duration, 0),
+          video.duration
+        );
+        if (!isSeeking) seekTo(targetTime);
+      });
+
+      // ── Typewriter ─────────────────────────────────────────────────────────────
+      var twSegments = [
+        { text: ' Rank Higher.\n', color: null },
+        { text: 'Get', color: '#e83759' },
+        { text: ' Recommended.', color: null }
+      ];
+      var twSpeed = 38;
+      var twDelay = 600;
+      var twEl = document.getElementById('typewriter-text');
+
+      var cursor = document.createElement('span');
+      cursor.className = 'typewriter-cursor';
+      twEl.appendChild(cursor);
+
+      /* Flatten segments into a typed sequence of { char, color } */
+      var twChars = [];
+      twSegments.forEach(function (seg) {
+        for (var i = 0; i < seg.text.length; i++) {
+          twChars.push({ ch: seg.text[i], color: seg.color });
+        }
+      });
+      var twIndex = 0;
+
+      setTimeout(function () {
+        var interval = setInterval(function () {
+          if (twIndex < twChars.length) {
+            var item = twChars[twIndex];
+            if (item.ch === '\n') {
+              twEl.insertBefore(document.createElement('br'), cursor);
+            } else if (item.color) {
+              /* Start or reuse a colored span for consecutive same-color chars */
+              var prev = cursor.previousSibling;
+              if (prev && prev.nodeType === 1 && prev.tagName === 'SPAN' && prev.style.color === item.color) {
+                prev.textContent += item.ch;
+              } else {
+                var span = document.createElement('span');
+                span.style.color = item.color;
+                span.textContent = item.ch;
+                twEl.insertBefore(span, cursor);
+              }
+            } else {
+              twEl.insertBefore(document.createTextNode(item.ch), cursor);
+            }
+            twIndex++;
+          } else {
+            clearInterval(interval);
+            cursor.style.display = 'none';
+          }
+        }, twSpeed);
+      }, twDelay);
+
+      // ── Pill fade-in (400ms after load, independent of typewriter) ─────────────
+      setTimeout(function () {
+        var pills = document.getElementById('pill-container');
+        if (pills) {
+          pills.style.opacity = '1';
+          pills.style.transform = 'translateY(0)';
+        }
+      }, 400);
+
+      // ── Copy email to clipboard ────────────────────────────────────────────────
+      var copyBtn = document.getElementById('copy-email-btn');
+      if (copyBtn) {
+        copyBtn.addEventListener('click', function () {
+          navigator.clipboard && navigator.clipboard.writeText('info@digitalbuddha.in').catch(function () { });
+        });
+      }
+    })();
+  </script>
+  <script>
+    (function () {
+      var navbar = document.getElementById('main-navbar');
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 0) {
+          navbar.style.backgroundColor = 'rgba(255,255,255,0.95)';
+          navbar.style.backdropFilter = 'blur(12px)';
+          navbar.style.boxShadow = '0 1px 24px rgba(0,0,0,0.07)';
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.style.backgroundColor = '';
+          navbar.style.backdropFilter = '';
+          navbar.style.boxShadow = '';
+          navbar.classList.remove('scrolled');
+        }
+      }, { passive: true });
+    })();
+  </script>
+  <script>
+  /* ── Interactivity: stats counter, SEO filter tabs, process accordion, SERP animation ── */
+  (function () {
+    /* 1. Animated stat counters — fires once when stats section enters viewport */
+    function animateCounters() {
+      document.querySelectorAll('[data-count]').forEach(function (el) {
+        var target = parseInt(el.getAttribute('data-count'), 10);
+        var suffix = el.getAttribute('data-suffix') || '';
+        var duration = 1400;
+        var start = null;
+        function step(ts) {
+          if (!start) start = ts;
+          var progress = Math.min((ts - start) / duration, 1);
+          var ease = 1 - Math.pow(1 - progress, 3); /* cubic ease-out */
+          var val = Math.round(ease * target);
+          el.textContent = (val >= 1000 ? (val / 1000).toFixed(val % 1000 === 0 ? 0 : 1) + 'k' : val) + suffix;
+          if (progress < 1) requestAnimationFrame(step);
+          else el.textContent = (target >= 1000 ? (target / 1000) + 'k' : target) + suffix;
+        }
+        requestAnimationFrame(step);
+      });
+    }
+    var statsSection = document.querySelector('[data-count]');
+    if (statsSection && window.IntersectionObserver) {
+      var statsObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { animateCounters(); statsObs.disconnect(); }
+        });
+      }, { threshold: 0.3 });
+      statsObs.observe(statsSection.closest('section') || statsSection);
+    }
+
+    /* 2. SEO specialism filter tabs */
+    var filterBtns = document.querySelectorAll('.seo-filter-btn');
+    var seoCards = document.querySelectorAll('.seo-card');
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        filterBtns.forEach(function (b) {
+          b.classList.remove('bg-deep-onyx', 'text-stark-white', 'border-deep-onyx');
+          b.classList.add('border-subtle-gray', 'text-on-surface-variant');
+        });
+        btn.classList.add('bg-deep-onyx', 'text-stark-white', 'border-deep-onyx');
+        btn.classList.remove('border-subtle-gray', 'text-on-surface-variant');
+        var filter = btn.getAttribute('data-filter');
+        seoCards.forEach(function (card) {
+          var cat = card.getAttribute('data-category');
+          var show = filter === 'all' || cat === filter;
+          card.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
+          if (show) {
+            card.style.opacity = '1'; card.style.transform = 'scale(1)'; card.style.display = '';
+          } else {
+            card.style.opacity = '0'; card.style.transform = 'scale(0.97)';
+            setTimeout(function () { if (btn.getAttribute('data-filter') !== 'all') card.style.display = 'none'; }, 260);
+          }
+        });
+      });
+    });
+
+    /* 3. Process accordion — click to expand/collapse phases */
+    document.querySelectorAll('.process-item').forEach(function (item) {
+      item.addEventListener('click', function () {
+        var body = item.querySelector('.process-body');
+        var chevron = item.querySelector('.process-chevron');
+        var isOpen = !body.classList.contains('hidden');
+        /* Close all */
+        document.querySelectorAll('.process-item').forEach(function (pi) {
+          pi.querySelector('.process-body').classList.add('hidden');
+          pi.querySelector('.process-chevron').style.transform = '';
+          pi.classList.remove('border-accent-gold');
+        });
+        /* Open clicked if was closed */
+        if (!isOpen) {
+          body.classList.remove('hidden');
+          chevron.style.transform = 'rotate(180deg)';
+          item.classList.add('border-accent-gold');
+        }
+      });
+    });
+
+    /* 4. SERP mock — animate rank badges counting up when visible */
+    var serpEl = document.getElementById('serp-mock');
+    if (serpEl && window.IntersectionObserver) {
+      var serpObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          serpEl.querySelectorAll('.serp-result').forEach(function (row, i) {
+            setTimeout(function () { row.style.opacity = '1'; row.style.transform = 'translateX(0)'; }, i * 120);
+          });
+          serpObs.disconnect();
+        });
+      }, { threshold: 0.2 });
+      /* Set initial hidden state */
+      serpEl.querySelectorAll('.serp-result').forEach(function (row) {
+        row.style.opacity = '0'; row.style.transform = 'translateX(10px)';
+        row.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+      });
+      serpObs.observe(serpEl);
+    }
+
+    /* 5. Scroll-triggered fade-in for any element with data-reveal */
+    if (window.IntersectionObserver) {
+      var revealObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('revealed');
+            revealObs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      document.querySelectorAll('[data-reveal]').forEach(function (el) { revealObs.observe(el); });
+    }
+  })();
+  </script>
+
+</html>
